@@ -8,11 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "jest --ci --reporters=default --reporters=jest-junit"
-  },
-  "jest-junit": {
-    "outputDirectory": "./reports",
-    "outputName": "junit.xml"
+    "test": "jest --ci --reporters=default --reporters=jest-junit --outputFile=reports/junit.xml"
   },
   "dependencies": {
     "react": "^19.2.0",
